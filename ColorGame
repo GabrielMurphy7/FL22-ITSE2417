@@ -1,0 +1,29 @@
+// import java.util.Scanner;
+
+public class ColorGame {
+  // public static void main(String[] args) {
+   Scanner scanner = new Scanner(System.in);
+    String[] colors = {"Red", "White", "Black", "Blue", "Gold"};
+    String secretColor = colors[(int)(Math.random() * colors.length)];
+    System.out.println("Welcome to the color guessing game!");
+    System.out.println("To play, try to guess the secret color by typing it in the console and pressing enter.");
+    System.out.println("You have two tries to guess the correct color.");
+    for (int i = 0; i < 2; i++) {
+      System.out.println("Enter your guess: ");
+      String guess = scanner.nextLine();
+      if (guess.equalsIgnoreCase(secretColor)) {
+        System.out.println("Congratulations, you guessed the secret color!");
+        return;
+      }
+    }
+    System.out.println("Sorry, you did not guess the secret color. Better luck next time!");
+  }
+}
+
+
+// I don't know if you said to remove the scanner or not, as well as the public static etc, but I believe I am supposed to so I removed both of them anyways VIA 
+// comments.
+
+// Essentially the idea of this program is to allow the user to run the game directly from their console as long as they have this code installed on 
+// their machine. It allows for a player to play and have two opporunities to guess a random color that the game has randomized and chosen. If they
+// guess incorrectly both times, then they lose. If they guess correctly, then they win. 
