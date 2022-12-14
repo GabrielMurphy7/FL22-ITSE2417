@@ -58,7 +58,7 @@ public class Itse2417Main
             new FinalProj(),          // Gutt
             new FinalProj(),          // Lopez
             new FinalProj(),          // Melendez
-            new FinalProj(),          // Murphy
+            new ColorGame(),          // Murphy
             new FinalProj(),          // Murzayeva
             new FinalProj(),          // Ramirez
             new FinalProj(),          // Sylvester
