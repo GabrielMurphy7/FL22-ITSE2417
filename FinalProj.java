@@ -1,9 +1,8 @@
 // Dummy class for FinalProject
 // Outputs a simple message when implementing begin()
 
-public class FinalProj implements FinalProject
-{
-    public FinalProj()
+public class ColorGame implements ColorGame
+    public ColorGame()
     {
 
     }
