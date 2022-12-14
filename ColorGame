@@ -1,7 +1,12 @@
 // import java.util.Scanner;
+// public static void main(String[] args) {
+
+
 public class Murphy implements ColorGame {
 public class ColorGame {
-  // public static void main(String[] args) {
+
+   
+   public void begin();
    Scanner scanner = new Scanner(System.in);
     String[] colors = {"Red", "White", "Black", "Blue", "Gold"};
     String secretColor = colors[(int)(Math.random() * colors.length)];
